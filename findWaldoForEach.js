@@ -13,3 +13,8 @@ function actionWhenFound(arr) {
 
 
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
+
+//OR, to not have to declare actionWhenFound
+findWaldo(["Alice", "Bob", "Waldo", "Winston"], function(result) {
+  console.log("The result is:", result);
+});
