@@ -22,3 +22,5 @@ if(a.name > b.name){
 };
 
 console.log(students.sort(customSorting));
+
+//important, sort() modifies array while filter() and map() creates new arrays
