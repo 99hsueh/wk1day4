@@ -1,0 +1,10 @@
+
+
+format:
+
+function1{
+  var
+  function2 {return var manipulation}
+}
+
+console.log(function1) --> will return var
